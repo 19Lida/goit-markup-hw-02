@@ -1,0 +1,208 @@
+.body {
+  background: #E5E5E5;
+  color: #212121;
+}
+/* колір основного тексту #212121*/
+/* вторинний колір тексту #757575 */
+/* білий колір #FFFFFF */
+/* акцент #2196F3 */
+/* вторинний колір фону #F5F4FA */
+/* вторинний колір фону #2F303A */
+/* вторинний колір фону FFFFFF */
+/* Логотип */
+.header {
+    background: #FFFFFF;
+}
+.header-logo {
+    text-decoration: none; 
+}
+.logo-blue{
+    font-family: Raleway,sans-serif;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+}
+ .logo-black {
+    font-family: Raleway,sans-serif;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color : #000000;
+ } 
+ /* Site nav */
+.site-nav-link {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color: #2196F3;
+}
+.site-nav-link: :hover,
+.site-nav-link: :focus{
+ color: #000;;
+}
+.link{
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+    color: #212121;
+}
+.nav-link {
+font-family: Roboto;
+font-style: Medium;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02;
+color: #757575;
+}
+/* Секція 1 */
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    font-family: Roboto;
+    font-style: Black;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06;
+    color: #FFFFFF;
+}
+.hero-buttom {
+font-family: Roboto;
+font-style: Bold;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06;
+color: #FFFFFF;
+background: #2196F3;
+}
+/* Секція 2 */
+.section-title{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03;
+}
+.text{
+font-family: Roboto;
+font-style: Regular;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03;
+color: #757575;
+}
+/* Секція 3 */ 
+.title {
+font-family: Roboto;
+font-style: Bold;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03;
+color: #212121;
+}
+/* Секція 4 */
+.workers {
+    background: #F5F4FA;
+}
+.workers-title {
+    font-family: Roboto;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03; 
+    color: #212121; 
+}
+.workers-text {
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03;
+color: #757575;
+}
+
+/* Портфоліо */
+/* Фільтр */
+.filter {
+    background: #E5E5E5;
+}
+.filter-buttom {
+font-family: Roboto
+font-style: Medium;;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03;
+color: #FFFFFF;
+}
+.filter-buttom:hover,
+.filter-buttom:focus{
+   color: tomato; 
+}
+/* Картинки */
+.pictures-list {
+    background-color: #EEEEEE;
+
+}
+.pictures-title {
+font-family: Roboto;
+font-style: Bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06;
+color: #212121;
+}
+.pictures-text {
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03;
+color: #757575;
+}
+/* Футер */
+.footer {
+    background: #2F303A; 
+}
+.footer-logo {
+text-decoration: none; 
+}
+.logo-blue {
+font-family: Raleway,sans-serif;
+font-style: normal;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03;
+color: #2196F3;
+}
+.logo-wight {
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-address {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    fine-height: 1.7;
+    fetter-spacing: 0.03;
+    color: #FFFFFF;
+}
+.contact-link {
+font-family: Roboto;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03;
+color: rgba(255, 255, 255, 0.6);
+}
