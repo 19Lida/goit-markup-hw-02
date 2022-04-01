@@ -1,9 +1,22 @@
-.body {
-  background: #E5E5E5;
-  color: #212121;
+:root {
+  --primery-text-color: #212121;
+  --title-text-color: #757575;
+  --secondary-title-text-color: rgba(255, 255, 255, 0.6);
+  --third-title-text-color: #000000;
+  --accent-color: #2196f3;
+  --primery-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+}
+body {
+  background: var(--primery-background-color);
+  color: var(--primery-text-color);
+  font-family: 'Roboto', sans-serif;
 }
 /* колір основного тексту #212121*/
 /* вторинний колір тексту #757575 */
+/* вторинний колір тексту rgba(255, 255, 255, 0.6 */
 /* білий колір #FFFFFF */
 /* акцент #2196F3 */
 /* вторинний колір фону #F5F4FA */
@@ -11,198 +24,221 @@
 /* вторинний колір фону FFFFFF */
 /* Логотип */
 .header {
-    background: #FFFFFF;
+  background: var(--white-color);
 }
 .header-logo {
-    text-decoration: none; 
+  text-decoration: none;
 }
-.logo-blue{
-    font-family: Raleway,sans-serif;
-    font-style: Bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    
+.logo-blue {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
- .logo-black {
-    font-family: Raleway,sans-serif;
-    font-style: Bold;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color : #000000;
- } 
- /* Site nav */
+.logo-black {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--third-title-text-color);
+}
+/* Site nav */
+ul {
+  list-style: none;
+}
 .site-nav-link {
-    font-family: Roboto;
-    font-style: Medium;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02;
-    color: #2196F3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
 }
-.site-nav-link: :hover,
-.site-nav-link: :focus{
- color: #000;;
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
 }
-.link{
-    font-family: Roboto;
-    font-style: Medium;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02;
-    color: #212121;
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
 }
 .nav-link {
-font-family: Roboto;
-font-style: Medium;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02;
-color: #757575;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
 /* Секція 1 */
 .hero {
-    background: #2F303A;
+  background-color: var(--footer-color);
 }
 .hero-title {
-    font-family: Roboto;
-    font-style: Black;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
 .hero-buttom {
-font-family: Roboto;
-font-style: Bold;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.06;
-color: #FFFFFF;
-background: #2196F3;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  /* 0px 4px 4px rgba(0, 0, 0, 0.15); */
 }
 /* Секція 2 */
-.section-title{
-    font-family: Roboto;
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03;
+.section {
+  background: var(--primery-background-color);
 }
-.text{
-font-family: Roboto;
-font-style: Regular;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03;
-color: #757575;
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primery-text-color);
 }
-/* Секція 3 */ 
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* Секція 3 */
 .title {
-font-family: Roboto;
-font-style: Bold;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.03;
-color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
 /* Секція 4 */
 .workers {
-    background: #F5F4FA;
+  background: var(--secondary-background-color);
 }
 .workers-title {
-    font-family: Roboto;
-    font-style: Medium;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03; 
-    color: #212121; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
 }
 .workers-text {
-font-family: Roboto;
-font-style: Regular;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03;
-color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 /* Портфоліо */
 /* Фільтр */
 .filter {
-    background: #E5E5E5;
+  background: var(--primery-background-color);
 }
 .filter-buttom {
-font-family: Roboto
-font-style: Medium;;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background: var(--secondary-background-color);
 }
 .filter-buttom:hover,
-.filter-buttom:focus{
-   color: tomato; 
+.filter-buttom:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
 }
 /* Картинки */
 .pictures-list {
-    background-color: #EEEEEE;
-
+  background: var(--primery-background-color);
 }
 .pictures-title {
-font-family: Roboto;
-font-style: Bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06;
-color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
 }
 .pictures-text {
-font-family: Roboto;
-font-style: Regular;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03;
-color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 /* Футер */
 .footer {
-    background: #2F303A; 
+  background: var(--footer-color);
 }
 .footer-logo {
-text-decoration: none; 
+  text-decoration: none;
 }
 .logo-blue {
-font-family: Raleway,sans-serif;
-font-style: normal;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03;
-color: #2196F3;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
-.logo-wight {
-    font-family: Raleway,sans-serif;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.logo-white {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .footer-address {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    fine-height: 1.7;
-    fetter-spacing: 0.03;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .contact-link {
-font-family: Roboto;
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03;
-color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-text-color);
 }
