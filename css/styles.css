@@ -4,7 +4,7 @@
   --secondary-title-text-color: rgba(255, 255, 255, 0.6);
   --third-title-text-color: #000000;
   --accent-color: #2196f3;
-  --primery-background-color: #e5e5e5;
+  --primery-background-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --white-color: #ffffff;
   --footer-color: #2f303a;
@@ -23,15 +23,11 @@ body {
 /* вторинний колір фону #2F303A */
 /* вторинний колір фону FFFFFF */
 /* Логотип */
-.header {
-  background: var(--white-color);
-}
 .header-logo {
   text-decoration: none;
 }
 .logo-blue {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -40,7 +36,6 @@ body {
 }
 .logo-black {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -52,19 +47,18 @@ ul {
   list-style: none;
 }
 .site-nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
+  text-decoration: none;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
 }
 .link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,12 +66,12 @@ ul {
   color: var(--primery-text-color);
 }
 .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -89,7 +83,6 @@ ul {
   background-color: var(--footer-color);
 }
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -99,7 +92,6 @@ ul {
   color: var(--white-color);
 }
 .hero-buttom {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -114,7 +106,6 @@ ul {
   background: var(--primery-background-color);
 }
 .section-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -123,8 +114,6 @@ ul {
   color: var(--primery-text-color);
 }
 .text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -132,7 +121,6 @@ ul {
 }
 /* Секція 3 */
 .title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -145,7 +133,6 @@ ul {
   background: var(--secondary-background-color);
 }
 .workers-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -153,8 +140,6 @@ ul {
   color: var(--primery-text-color);
 }
 .workers-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -167,7 +152,6 @@ ul {
   background: var(--primery-background-color);
 }
 .filter-buttom {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -175,6 +159,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--primery-text-color);
   background: var(--secondary-background-color);
+  cursor: pointer;
 }
 .filter-buttom:hover,
 .filter-buttom:focus {
@@ -186,7 +171,6 @@ ul {
   background: var(--primery-background-color);
 }
 .pictures-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -194,8 +178,6 @@ ul {
   color: var(--primery-text-color);
 }
 .pictures-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -241,4 +223,5 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-title-text-color);
+  text-decoration: none;
 }
